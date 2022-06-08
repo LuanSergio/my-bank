@@ -1,0 +1,6 @@
+@use 'settings/colors-type' as *;
+@use 'settings/colors-theme' as *;
+
+@function get-color($color) {
+  @return map-get($theme, $color);
+}

@@ -1,0 +1,68 @@
+@use 'tools/get-color' as *;
+@use 'settings/colors-type' as typeColors;
+@use 'sass:map';
+
+$base-font-size: 1em;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  user-select: -moz-none;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+}
+
+html {
+  font-size: $base-font-size;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--current-body-background);
+}
+
+.body-transition {
+  transition: background-color 0.28s ease-out;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@each $type, $color in typeColors.$defaults {
+  body.#{$type} {
+    --current-light-type-color: #{map.get(typeColors.$lights, $type)};
+    --current-dark-type-color: #{map.get(typeColors.$darks, $type)};
+    --current-type-color: #{map.get(typeColors.$defaults, $type)};
+    --current-body-background: #{map.get(typeColors.$lights, $type)};
+  }
+}

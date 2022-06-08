@@ -1,0 +1,7 @@
+@use 'sass:math';
+
+@function em($value, $base: 16) {
+  $unit: math.div($value, $base) + em;
+
+  @return $unit;
+}

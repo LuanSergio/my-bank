@@ -1,6 +1,0 @@
-@use 'settings/icons';
-@use 'sass:map';
-
-@function get-icon($iconName) {
-  @return map.get(icons.$iconList, $iconName);
-}

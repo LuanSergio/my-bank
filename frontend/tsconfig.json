@@ -18,7 +18,9 @@
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/assets/styles/*"],
       "@services/*": ["src/services/*"],
-      "@public/*": ["public/*"]
+      "@public/*": ["public/*"],
+      "@utils/*": ["src/utils/*"],
+      "@enums/*": ["src/enums/*"]
     },
     "incremental": true
   },

@@ -1,0 +1,32 @@
+@use 'tools/rem' as *;
+@use 'tools/get-color' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 338.33px;
+  height: 118.64px;
+}
+
+.form {
+  margin-top: rem(40);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: rem(535);
+  width: 100%;
+}
+
+.form > *:not(:last-child) {
+  margin-top: rem(32);
+}
+
+.form > *:last-child {
+  margin-top: rem(56);
+}

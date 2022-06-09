@@ -1,0 +1,39 @@
+@use 'tools/rem' as *;
+@use 'tools/get-color' as *;
+
+.header {
+  max-width: rem(1360);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(16) rem(32);
+}
+
+.logo {
+  width: 159px;
+  height: 54px;
+}
+
+.menu {
+  padding-bottom: rem(8);
+}
+
+.menuItem {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration-line: underline;
+}
+
+.login {
+  margin-right: rem(32);
+  color: get-color(neutral);
+}
+
+.register {
+  color: get-color(primary);
+}

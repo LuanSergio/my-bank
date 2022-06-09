@@ -1,7 +1,12 @@
-import Table from '@components/Table';
+import RegisterForm from '@components/RegisterForm';
+import FormLayout from '@components/FormLayout';
 
 const Home = (): JSX.Element => {
-  return <p>Hello world</p>;
+  return (
+    <FormLayout>
+      <RegisterForm />
+    </FormLayout>
+  );
 };
 
 export default Home;

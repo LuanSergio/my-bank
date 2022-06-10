@@ -39,7 +39,7 @@ const CustomerTable = (): JSX.Element => {
               </tr>
 
               {customers.map(customer => (
-                <CustomerTableItem customer={customer} />
+                <CustomerTableItem key={customer.id} customer={customer} />
               ))}
             </tbody>
           </table>

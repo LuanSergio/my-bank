@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://my-bank-eta.vercel.app/">	
-    <img alt="Picross Universe" title="Picross Universe" src="/docs/logo.png" />
+    <img alt="My Bank" title="My Bank" src="/docs/logo.png" />
   </a>
 </h1>
 

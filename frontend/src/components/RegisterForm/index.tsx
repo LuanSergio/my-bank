@@ -11,10 +11,14 @@ import useRegister from './useRegister';
 const RegisterForm = (): JSX.Element => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
+
+    setIsLoading(true);
     await useRegister(email, password);
+    setIsLoading(false);
   }
 
   function handleEmailChange(event: ChangeEvent<HTMLInputElement>) {
@@ -47,7 +51,9 @@ const RegisterForm = (): JSX.Element => {
           onChange={handlePasswordChange}
         />
 
-        <Button type="submit">Criar</Button>
+        <Button type="submit" isLoading={isLoading}>
+          Criar
+        </Button>
       </form>
       <p className={styles.text}>
         Já tem uma conta?{' '}

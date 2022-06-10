@@ -11,11 +11,14 @@ import useLogin from './useLogin';
 const LoginForm = (): JSX.Element => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
+    setIsLoading(true);
     await useLogin(email, password);
+    setIsLoading(false);
   }
 
   function handleEmailChange(event: ChangeEvent<HTMLInputElement>) {
@@ -48,7 +51,9 @@ const LoginForm = (): JSX.Element => {
           onChange={handlePasswordChange}
         />
 
-        <Button type="submit">Entrar</Button>
+        <Button type="submit" isLoading={isLoading}>
+          Entrar
+        </Button>
       </form>
       <p className={styles.text}>
         Ainda não tem uma conta?{' '}

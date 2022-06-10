@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://my-bank-eta.vercel.app/">	
-    <img alt="My Bank" title="My Bank" src="/docs/logo.png" />
+    <img alt="My Bank" title="My Bank" src="/docs/banner.png" />
   </a>
 </h1>
 
@@ -22,7 +22,7 @@
 </p>
 
 <a href="https://my-bank-eta.vercel.app/">	
-  <img src="/docs/icon.png" align="right" />
+  <img src="/docs/logo.png" align="right" />
 </a>
 
 ## :star2: Requirements:

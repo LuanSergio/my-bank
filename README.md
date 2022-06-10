@@ -1,7 +1,7 @@
 # PicrossJs
 
 <h1 align="center">
-  <a href="https://picrossuniverse.netlify.app/">	
+  <a href="https://my-bank-eta.vercel.app/">	
     <img alt="Picross Universe" title="Picross Universe" src="/docs/logo.png" />
   </a>
 </h1>
@@ -21,7 +21,7 @@
   <a href="#memo-License"><strong>License</strong></a>
 </p>
 
-<a href="https://picrossuniverse.netlify.app/">	
+<a href="https://my-bank-eta.vercel.app/">	
   <img src="/docs/icon.png" align="right" />
 </a>
 

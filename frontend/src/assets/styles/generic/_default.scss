@@ -35,6 +35,8 @@ h4,
 h5,
 h6 {
   font-family: Montserrat, Helvetica, sans-serif;
+  color: get-color(primary);
+  text-transform: uppercase;
 }
 
 body {

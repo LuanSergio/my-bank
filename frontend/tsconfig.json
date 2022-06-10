@@ -20,7 +20,8 @@
       "@services/*": ["src/services/*"],
       "@public/*": ["public/*"],
       "@utils/*": ["src/utils/*"],
-      "@enums/*": ["src/enums/*"]
+      "@enums/*": ["src/enums/*"],
+      "@hooks/*": ["src/hooks/*"]
     },
     "incremental": true
   },

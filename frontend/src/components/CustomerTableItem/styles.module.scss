@@ -1,0 +1,32 @@
+@use 'tools/rem' as *;
+@use 'tools/get-color' as *;
+
+.cell {
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: get-color(dark);
+  padding-top: rem(16);
+  font-size: rem(16);
+  padding-bottom: rem(16);
+  border-bottom: 1px solid get-color(neutral-light);
+}
+
+.cell:nth-child(1) {
+  width: rem(250);
+}
+
+.cell:nth-child(2) {
+  width: rem(150);
+}
+
+.cell:nth-child(3) {
+  width: rem(181);
+}
+
+.cell:nth-child(4) {
+  width: rem(120);
+}
+
+.cell:nth-child(5) {
+  width: rem(148);
+}

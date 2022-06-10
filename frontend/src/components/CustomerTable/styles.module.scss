@@ -4,8 +4,6 @@
 @use 'tools/index' as *;
 
 .title {
-  color: get-color(primary);
-  text-transform: capitalize;
   font-size: rem(32);
   letter-spacing: 0.02em;
 }

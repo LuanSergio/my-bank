@@ -1,5 +1,11 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "lorem@ipsum.com",
+      "password": "$2a$10$H/mVLp0tXv9P9I5YFm/pouA869umsLhIDpI0m8jMUOZ8knHYH4VCq",
+      "id": 1
+    }
+  ],
   "customers": [
     {
       "id": 1,

@@ -1,40 +1,21 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
-import client from '@services/axios';
-import Cookies from 'js-cookie';
+
 import styles from './styles.module.scss';
 import Logo from '../../../public/logo.svg';
 import Input from '@components/Input';
 import Button from '@components/Button';
-
-interface ILoginResponse {
-  data: {
-    accessToken: string;
-    user: {
-      email: string;
-    };
-  };
-}
+import Link from 'next/link';
+import { Pages } from '@enums/pages';
+import useLogin from './useLogin';
 
 const LoginForm = (): JSX.Element => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  async function createUser() {
-    const response: ILoginResponse = await client.post('/login', {
-      email,
-      password,
-    });
-
-    Cookies.set(
-      process.env.NEXT_PUBLIC_COOKIE_NAME as string,
-      response.data.accessToken,
-    );
-  }
-
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
-    await createUser();
+    await useLogin(email, password);
   }
 
   function handleEmailChange(event: ChangeEvent<HTMLInputElement>) {
@@ -49,6 +30,7 @@ const LoginForm = (): JSX.Element => {
     <div className={styles.container}>
       <Logo className={styles.logo} />
       <form onSubmit={handleSubmit} className={styles.form}>
+        <h1 className={styles.title}>Login</h1>
         <Input
           name="email"
           label="E-mail"
@@ -68,6 +50,12 @@ const LoginForm = (): JSX.Element => {
 
         <Button type="submit">Entrar</Button>
       </form>
+      <p className={styles.text}>
+        Ainda não tem uma conta?{' '}
+        <Link href={Pages.REGISTER} passHref>
+          <a className={styles.link}>Se cadastre aqui!</a>
+        </Link>
+      </p>
     </div>
   );
 };

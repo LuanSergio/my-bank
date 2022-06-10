@@ -1,7 +1,12 @@
-.content {
-  background-image: url('../../assets/images/formBackground.png');
-  background-position: 30% center;
-  background-size: 2922px 2047px;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+@use 'settings/_breakpoints' as *;
+@use 'tools/index' as *;
+
+@media only screen and (min-width: $lg) {
+  .content {
+    background-image: url('../../assets/images/formBackground.webp');
+    min-height: 100vh;
+    background-position: 30% center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }

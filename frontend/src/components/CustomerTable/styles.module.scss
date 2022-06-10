@@ -1,0 +1,122 @@
+@use 'tools/rem' as *;
+@use 'tools/get-color' as *;
+@use 'settings/_breakpoints' as *;
+@use 'tools/index' as *;
+
+.title {
+  color: get-color(primary);
+  text-transform: capitalize;
+  font-size: rem(32);
+  letter-spacing: 0.02em;
+}
+
+.content {
+  margin-top: rem(40);
+  max-width: rem(880);
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background-color: get-color(light);
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  padding: rem(24) rem(16) rem(10);
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  min-width: 800px;
+}
+
+.tableHead {
+  font-size: rem(18);
+  text-align: left;
+  color: get-color(primary);
+  border-bottom: 1px solid get-color(neutral-light);
+  padding-bottom: rem(16);
+}
+
+.tableFooter {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: rem(8);
+}
+
+.paginationIndex {
+  margin-right: rem(20);
+}
+
+.paginationPrevious,
+.paginationNext {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.paginationPrevious:disabled,
+.paginationNext:disabled {
+  opacity: 0.3;
+}
+
+.paginationPrevious:hover,
+.paginationNext:hover {
+  background-color: #eee;
+}
+
+.paginationPrevious {
+  margin-right: rem(4);
+  transform: rotate(-180deg);
+}
+
+.paginationNext {
+  margin-right: rem(20);
+}
+
+.decoration {
+  display: none;
+  width: 195px;
+  height: 198px;
+  position: absolute;
+}
+
+.decoration:nth-child(1) {
+  top: -88px;
+  right: -98px;
+  z-index: -1;
+}
+
+.decoration:last-child {
+  bottom: -88px;
+  left: -98px;
+  z-index: -1;
+}
+
+@media only screen and (min-width: $md) {
+  .tableContainer {
+    overflow-x: visible;
+  }
+
+  .decoration {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: $xs) {
+  .title {
+    font-size: rem(40);
+  }
+
+  .content {
+    margin-top: rem(80);
+  }
+}

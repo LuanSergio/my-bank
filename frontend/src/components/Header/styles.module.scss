@@ -1,18 +1,19 @@
 @use 'tools/rem' as *;
 @use 'tools/get-color' as *;
+@use 'settings/_breakpoints' as *;
+@use 'tools/index' as *;
 
 .header {
-  max-width: rem(1360);
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: rem(16) rem(32);
+  padding: rem(16) rem(20);
 }
 
 .logo {
-  width: 159px;
+  width: 124px;
   height: 54px;
 }
 
@@ -23,6 +24,7 @@
 .menuItem {
   font-weight: bold;
   text-decoration: none;
+  font-size: rem(14);
 }
 
 .menuItem:hover {
@@ -30,10 +32,35 @@
 }
 
 .login {
-  margin-right: rem(32);
+  margin-right: rem(16);
   color: get-color(neutral);
 }
 
 .register {
   color: get-color(primary);
+}
+
+.logout {
+  color: get-color(neutral);
+  background-color: transparent;
+  border: none;
+  font-size: rem(18);
+  font-weight: bold;
+}
+
+@media only screen and (min-width: $xs) {
+  .menuItem {
+    font-size: rem(16);
+  }
+}
+
+@media only screen and (min-width: $sm) {
+  .logo {
+    width: 159px;
+    height: 54px;
+  }
+
+  .login {
+    margin-right: rem(32);
+  }
 }

@@ -45,7 +45,7 @@
 
 I created the base layout using Figma.
 
-<a href="https://www.figma.com/file/bgFxNN47lpezdBnIxyQPSK/Picross-Universe?node-id=332%3A10">	
+<a href="https://www.figma.com/file/TpMBFAMC2RPt7DlvAn8OkP/My-bank?node-id=0%3A1">	
   <img src="/docs/layout-figma.png" />
 </a>
 

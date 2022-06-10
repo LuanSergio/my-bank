@@ -1,12 +1,24 @@
 @use 'settings/_breakpoints' as *;
 @use 'tools/index' as *;
 
+.content {
+  position: relative;
+  max-width: rem(535);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.backgroundDecoration {
+  display: none;
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  left: -90%;
+  transform: rotate(-8deg);
+}
+
 @media only screen and (min-width: $lg) {
-  .content {
-    background-image: url('../../assets/images/formBackground.webp');
-    min-height: 100vh;
-    background-position: 30% center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  .backgroundDecoration {
+    display: block;
   }
 }

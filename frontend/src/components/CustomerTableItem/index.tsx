@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Edit from '../../../public/edit.svg';
-import Logo from '../../../public/logo.svg';
+import IconButton from '@components/IconButton';
 
 interface ITableItemProps {
   customer: ICustomer;
@@ -15,9 +15,9 @@ const TableItem = ({ customer }: ITableItemProps): JSX.Element => {
       <td className={styles.cell}>{customer.bank.agency}</td>
       <td className={styles.cell}>{customer.bank.account}</td>
       <td className={styles.cell}>
-        <button aria-label="Edit" className={styles.editButton}>
+        <IconButton label="Edit" onClick={() => {}}>
           <Edit className={styles.editIcon} />
-        </button>
+        </IconButton>
       </td>
     </tr>
   );

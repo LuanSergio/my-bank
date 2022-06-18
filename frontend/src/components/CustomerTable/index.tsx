@@ -5,6 +5,7 @@ import CustomerTableItem from '@components/CustomerTableItem';
 import DotDecoration from '../../../public/dot-decoration.svg';
 import Arrow from '../../../public/arrow.svg';
 import useCustomers from './useCustomers';
+import Modal from '@components/Modal';
 
 const CustomerTable = (): JSX.Element => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -36,6 +37,7 @@ const CustomerTable = (): JSX.Element => {
                 <th className={styles.tableHead}>Documento</th>
                 <th className={styles.tableHead}>Agência</th>
                 <th className={styles.tableHead}>Conta</th>
+                <th className={styles.tableHead}>Edit</th>
               </tr>
 
               {customers.map(customer => (
@@ -65,6 +67,7 @@ const CustomerTable = (): JSX.Element => {
         </div>
         <DotDecoration className={styles.decoration} aria-hidden="true" />
       </div>
+      <Modal />
     </>
   );
 };

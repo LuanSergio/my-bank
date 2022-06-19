@@ -1,9 +1,17 @@
 import styles from './styles.module.scss';
 import Button from '@components/Button';
 import Input from '@components/Input';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, ReactNode, useState } from 'react';
+import Close from '../../../public/close.svg';
+import IconButton from '@components/IconButton';
 
-const Modal = (): JSX.Element => {
+interface IModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  children: ReactNode;
+}
+
+const Modal = ({ isOpen, onClose, children }: IModalProps): JSX.Element => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -19,31 +27,18 @@ const Modal = (): JSX.Element => {
   return (
     <div className={styles.modal}>
       <div className={styles.content}>
-        <form className={styles.form}>
-          <h1 className={styles.title}>Cadastro</h1>
-          <Input
-            name="email"
-            label="E-mail"
-            value={email}
-            type="email"
-            required
-            onChange={handleEmailChange}
-          />
-          <Input
-            name="password"
-            label="Password"
-            type="password"
-            value={password}
-            required
-            onChange={handlePasswordChange}
-          />
+        <IconButton
+          color="neutral"
+          className={styles.closeButton}
+          label="Edit"
+          onClick={onClose}
+        >
+          <Close className={styles.closeIcon} />
+        </IconButton>
 
-          <Button type="submit" isLoading={isLoading}>
-            Criar
-          </Button>
-        </form>
+        <>{children}</>
       </div>
-      <div className={styles.overlay}></div>
+      <div className={styles.overlay} onClick={onClose}></div>
     </div>
   );
 };

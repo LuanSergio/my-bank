@@ -23,6 +23,7 @@ const Input = ({
         required
         onChange={onChange}
         name={name}
+        id={name}
         type={type}
         value={value}
         className={styles.input}

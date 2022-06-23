@@ -7,6 +7,7 @@ interface IInputProps {
   name: string;
   type?: string;
   required?: boolean;
+  maxLength?: number;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
@@ -15,6 +16,7 @@ const Input = ({
   label,
   onChange,
   name,
+  maxLength,
   type = 'text',
 }: IInputProps): JSX.Element => {
   return (
@@ -23,6 +25,7 @@ const Input = ({
         required
         onChange={onChange}
         name={name}
+        maxLength={maxLength}
         type={type}
         value={value}
         className={styles.input}

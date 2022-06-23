@@ -6,14 +6,19 @@ import Logo from '../../../public/logo.svg';
 import getLoggedUser from '@utils/getLoggedUser';
 import Cookies from 'js-cookie';
 import Router from 'next/router';
+import { useEffect, useState } from 'react';
 
 const Header = (): JSX.Element => {
-  const loggedUser = getLoggedUser();
+  const [loggedUser, setLoggedUser] = useState<string | undefined>();
 
   function handleLogout() {
     Cookies.remove(process.env.NEXT_PUBLIC_COOKIE_NAME as string);
     Router.replace(Pages.LOGIN);
   }
+
+  useEffect(() => {
+    setLoggedUser(getLoggedUser());
+  }, []);
 
   return (
     <header className={`h-container ${styles.header}`}>

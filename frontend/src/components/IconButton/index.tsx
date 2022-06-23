@@ -13,10 +13,12 @@ const IconButton = ({
   children,
   label,
   className,
+  onClick,
   color = 'primary',
 }: IIconButtonProps): JSX.Element => {
   return (
     <button
+      onClick={onClick}
       aria-label={label}
       className={`${styles.button} ${styles[color]} ${className}`}
     >

@@ -1,9 +1,10 @@
-import styles from './styles.module.scss';
-import Button from '@components/Button';
-import Input from '@components/Input';
-import { ChangeEvent, ReactNode, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { ReactNode } from 'react';
+
 import Close from '../../../public/close.svg';
 import IconButton from '@components/IconButton';
+
+import styles from './styles.module.scss';
 
 interface IModalProps {
   isOpen: boolean;
@@ -11,20 +12,14 @@ interface IModalProps {
   children: ReactNode;
 }
 
-const Modal = ({ isOpen, onClose, children }: IModalProps): JSX.Element => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+const Modal = ({
+  isOpen,
+  onClose,
+  children,
+}: IModalProps): JSX.Element | null => {
+  if (!isOpen) return null;
 
-  function handleEmailChange(event: ChangeEvent<HTMLInputElement>) {
-    setEmail(event.target.value);
-  }
-
-  function handlePasswordChange(event: ChangeEvent<HTMLInputElement>) {
-    setPassword(event.target.value);
-  }
-
-  return (
+  return createPortal(
     <div className={styles.modal}>
       <div className={styles.content}>
         <IconButton
@@ -38,8 +33,10 @@ const Modal = ({ isOpen, onClose, children }: IModalProps): JSX.Element => {
 
         <>{children}</>
       </div>
+
       <div className={styles.overlay} onClick={onClose}></div>
-    </div>
+    </div>,
+    document.getElementById('modals')!,
   );
 };
 

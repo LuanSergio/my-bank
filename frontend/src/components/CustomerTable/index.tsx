@@ -1,10 +1,12 @@
 import { useState } from 'react';
 
+import Arrow from '../../../public/arrow.svg';
+import DotDecoration from '../../../public/dot-decoration.svg';
+
 import CustomerTableItem from '@components/CustomerTableItem';
 import TablePagination from '@components/TablePagination';
-import DotDecoration from '../../../public/dot-decoration.svg';
-import Arrow from '../../../public/arrow.svg';
 import useCustomers from './useCustomers';
+import CustomerTableItemSkeleton from '@components/CustomerTableItemSkeleton';
 
 import styles from './styles.module.scss';
 
@@ -44,13 +46,21 @@ const CustomerTable = (): JSX.Element => {
                 <th className={styles.tableHead}>Editar</th>
               </tr>
 
-              {customers.map(customer => (
-                <CustomerTableItem
-                  key={customer.id}
-                  forceUpdate={setForceUpdate}
-                  customer={customer}
-                />
-              ))}
+              {customers.length > 0 ? (
+                customers.map(customer => (
+                  <CustomerTableItem
+                    key={customer.id}
+                    forceUpdate={setForceUpdate}
+                    customer={customer}
+                  />
+                ))
+              ) : (
+                <>
+                  {Array.from(Array(10), (e, i) => (
+                    <CustomerTableItemSkeleton />
+                  ))}
+                </>
+              )}
             </tbody>
           </table>
         </div>

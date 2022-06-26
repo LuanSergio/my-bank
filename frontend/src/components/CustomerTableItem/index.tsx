@@ -7,12 +7,15 @@ import EditCustomerForm from '@components/EditCustomerForm';
 
 import styles from './styles.module.scss';
 
-interface ITableItemProps {
+interface ICustomerTableItemProps {
   customer: ICustomer;
   forceUpdate: Dispatch<SetStateAction<number>>;
 }
 
-const TableItem = ({ customer, forceUpdate }: ITableItemProps): JSX.Element => {
+const CustomerTableItem = ({
+  customer,
+  forceUpdate,
+}: ICustomerTableItemProps): JSX.Element => {
   const [isEditOpen, setIsEditOpen] = useState(false);
 
   function handleEditModalClose() {
@@ -47,4 +50,4 @@ const TableItem = ({ customer, forceUpdate }: ITableItemProps): JSX.Element => {
   );
 };
 
-export default TableItem;
+export default CustomerTableItem;

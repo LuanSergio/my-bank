@@ -15,7 +15,6 @@ const CustomerTable = (): JSX.Element => {
   const { customers, lastPage } = useCustomers(currentPage, forceUpdate);
 
   function handlePreviousClick() {
-    console.log('previous');
     if (currentPage > 1) {
       setCurrentPage(previousValue => previousValue - 1);
     }
@@ -23,7 +22,6 @@ const CustomerTable = (): JSX.Element => {
 
   function handleNextClick() {
     if (currentPage < lastPage) {
-      console.log('next');
       setCurrentPage(previousValue => previousValue + 1);
     }
   }

@@ -35,6 +35,11 @@ export default async function useEditCustomer({
   bankName,
   forceUpdate,
 }: IUseEditCustomerParams) {
+  const formattedAccount =
+    account.substring(0, account.length - 1) +
+    '-' +
+    account[account.length - 1];
+
   await client
     .put(`/customers/${id}`, {
       id,
@@ -45,7 +50,7 @@ export default async function useEditCustomer({
         bankName,
         code,
         agency,
-        account,
+        account: formattedAccount,
       },
     })
     .then((response: IEditResponse) => {

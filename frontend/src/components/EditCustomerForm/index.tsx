@@ -128,7 +128,7 @@ const EditCustomerForm = ({
             label="Conta"
             value={account}
             type="tel"
-            maxLength={5}
+            maxLength={6}
             required
             onChange={handleAccountChange}
           />

@@ -22,7 +22,7 @@ const Header = (): JSX.Element => {
 
   return (
     <header className={`h-container ${styles.header}`}>
-      <Link href={Pages.HOME} passHref>
+      <Link href={loggedUser ? Pages.CUSTOMERS : Pages.HOME} passHref>
         <a aria-label="my-bank">
           <Logo className={styles.logo} />
         </a>

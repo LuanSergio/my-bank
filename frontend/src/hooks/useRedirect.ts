@@ -7,9 +7,20 @@ export default function useRedirect(): void {
   const router = useRouter();
   useEffect(() => {
     const loggedUser = getLoggedUser();
+    console.log(router.asPath);
 
     if (!loggedUser) {
+      if (router.asPath === Pages.LOGIN) {
+        router.replace(Pages.LOGIN);
+      }
+
+      if (router.asPath === Pages.REGISTER) {
+        router.replace(Pages.REGISTER);
+      }
+
       router.replace(Pages.REGISTER);
+    } else {
+      router.replace(Pages.CUSTOMERS);
     }
   }, []);
 }

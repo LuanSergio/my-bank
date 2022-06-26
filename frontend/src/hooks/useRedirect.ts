@@ -11,14 +11,14 @@ export default function useRedirect(): void {
 
     if (!loggedUser) {
       if (router.asPath === Pages.LOGIN) {
+        console.log('é igual ao login');
         router.replace(Pages.LOGIN);
-      }
-
-      if (router.asPath === Pages.REGISTER) {
+      } else if (router.asPath === Pages.REGISTER) {
+        console.log('é igual ao registro');
+        router.replace(Pages.REGISTER);
+      } else {
         router.replace(Pages.REGISTER);
       }
-
-      router.replace(Pages.REGISTER);
     } else {
       router.replace(Pages.CUSTOMERS);
     }

@@ -43,6 +43,7 @@ const CustomerTable = (): JSX.Element => {
                 <th className={styles.tableHead}>Banco</th>
                 <th className={styles.tableHead}>Agência</th>
                 <th className={styles.tableHead}>Conta</th>
+                <th className={styles.tableHead}>Código</th>
                 <th className={styles.tableHead}>Editar</th>
               </tr>
 

@@ -34,9 +34,8 @@ const CustomerTableItem = ({
         <td className={styles.cell}>{customer.document}</td>
         <td className={styles.cell}>{customer.bank.bankName}</td>
         <td className={styles.cell}>{customer.bank.agency}</td>
-        <td className={styles.cell}>
-          {customer.bank.account}-{customer.bank.code}
-        </td>
+        <td className={styles.cell}>{customer.bank.account}</td>
+        <td className={styles.cell}>{customer.bank.code}</td>
         <td className={styles.cell}>
           <IconButton label="Edit" onClick={handleEditModalOpen}>
             <Edit className={styles.editIcon} />

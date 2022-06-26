@@ -12,33 +12,37 @@
 }
 
 .cell:nth-child(1) {
-  width: 180px;
+  width: rem(170);
 }
 
 .cell:nth-child(2) {
-  width: 120px;
+  width: rem(120);
 }
 
 .cell:nth-child(3) {
-  width: 132px;
+  width: rem(132);
 }
 
 .cell:nth-child(4) {
-  width: 200px;
+  width: rem(200);
 }
 
 .cell:nth-child(5) {
-  width: 98px;
+  width: rem(98);
+  padding-left: rem(10);
 }
 
 .cell:nth-child(6) {
-  width: 120px;
+  width: rem(100);
 }
 
 .cell:nth-child(7) {
-  width: 40px;
+  width: rem(100);
+  padding-left: rem(20);
+}
 
-  justify-content: center;
+.cell:nth-child(8) {
+  width: rem(40);
 }
 
 .editButton {

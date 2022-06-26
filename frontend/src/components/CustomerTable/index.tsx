@@ -57,7 +57,7 @@ const CustomerTable = (): JSX.Element => {
               ) : (
                 <>
                   {Array.from(Array(10), (e, i) => (
-                    <CustomerTableItemSkeleton />
+                    <CustomerTableItemSkeleton key={i} />
                   ))}
                 </>
               )}

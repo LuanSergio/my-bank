@@ -16,7 +16,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "23",
         "agency": "1367",
-        "account": "17960-2"
+        "account": "17960"
       }
     },
     {
@@ -28,7 +28,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "65",
         "agency": "1878",
-        "account": "23328-0"
+        "account": "23328"
       }
     },
     {
@@ -40,7 +40,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "95",
         "agency": "1806",
-        "account": "22989-2"
+        "account": "22989"
       }
     },
     {
@@ -52,7 +52,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "81",
         "agency": "1151",
-        "account": "24533-3"
+        "account": "24533"
       }
     },
     {
@@ -64,7 +64,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "81",
         "agency": "1000",
-        "account": "15511-6"
+        "account": "15511"
       }
     },
     {
@@ -76,7 +76,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "3",
         "agency": "1808",
-        "account": "14964-1"
+        "account": "14964"
       }
     },
     {
@@ -88,7 +88,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "48",
         "agency": "1882",
-        "account": "12897-8"
+        "account": "12897"
       }
     },
     {
@@ -100,7 +100,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "51",
         "agency": "1705",
-        "account": "16803-5"
+        "account": "16803"
       }
     },
     {
@@ -112,7 +112,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "99",
         "agency": "1779",
-        "account": "19180-9"
+        "account": "19180"
       }
     },
     {
@@ -124,7 +124,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "44",
         "agency": "1986",
-        "account": "23570-5"
+        "account": "23570"
       }
     },
     {
@@ -136,7 +136,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "93",
         "agency": "1936",
-        "account": "27510-4"
+        "account": "27510"
       }
     },
     {
@@ -148,7 +148,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "98",
         "agency": "1279",
-        "account": "31872-0"
+        "account": "31872"
       }
     },
     {
@@ -160,7 +160,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "88",
         "agency": "1607",
-        "account": "22410-9"
+        "account": "22410"
       }
     },
     {
@@ -172,7 +172,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "10",
         "agency": "1352",
-        "account": "23496-0"
+        "account": "23496"
       }
     },
     {
@@ -184,7 +184,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "86",
         "agency": "1204",
-        "account": "23322-9"
+        "account": "23322"
       }
     },
     {
@@ -196,7 +196,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "30",
         "agency": "1075",
-        "account": "47159-0"
+        "account": "47159"
       }
     },
     {
@@ -208,7 +208,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "5",
         "agency": "1033",
-        "account": "47898-1"
+        "account": "47898"
       }
     },
     {
@@ -220,7 +220,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "14",
         "agency": "1269",
-        "account": "41903-7"
+        "account": "41903"
       }
     },
     {
@@ -232,7 +232,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "37",
         "agency": "1734",
-        "account": "49560-7"
+        "account": "49560"
       }
     },
     {
@@ -244,7 +244,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "57",
         "agency": "1497",
-        "account": "36728-9"
+        "account": "36728"
       }
     },
     {
@@ -256,7 +256,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "37",
         "agency": "1921",
-        "account": "40956-2"
+        "account": "40956"
       }
     },
     {
@@ -268,7 +268,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "80",
         "agency": "1642",
-        "account": "23842-8"
+        "account": "23842"
       }
     },
     {
@@ -280,7 +280,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "90",
         "agency": "1223",
-        "account": "24132-6"
+        "account": "24132"
       }
     },
     {
@@ -292,7 +292,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "57",
         "agency": "1381",
-        "account": "20018-1"
+        "account": "20018"
       }
     },
     {
@@ -304,7 +304,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "86",
         "agency": "1817",
-        "account": "41789-9"
+        "account": "41789"
       }
     },
     {
@@ -316,7 +316,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "54",
         "agency": "1885",
-        "account": "43999-5"
+        "account": "43999"
       }
     },
     {
@@ -328,7 +328,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "84",
         "agency": "1338",
-        "account": "22327-2"
+        "account": "22327"
       }
     },
     {
@@ -340,7 +340,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "45",
         "agency": "1292",
-        "account": "38918-1"
+        "account": "38918"
       }
     },
     {
@@ -352,7 +352,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "70",
         "agency": "1751",
-        "account": "49200-6"
+        "account": "49200"
       }
     },
     {
@@ -364,7 +364,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "74",
         "agency": "1867",
-        "account": "28168-7"
+        "account": "28168"
       }
     },
     {
@@ -376,7 +376,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "90",
         "agency": "1254",
-        "account": "35472-8"
+        "account": "35472"
       }
     },
     {
@@ -388,7 +388,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "5",
         "agency": "1015",
-        "account": "49500-2"
+        "account": "49500"
       }
     },
     {
@@ -400,7 +400,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "66",
         "agency": "1924",
-        "account": "22390-4"
+        "account": "22390"
       }
     },
     {
@@ -412,7 +412,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "77",
         "agency": "1316",
-        "account": "45301-4"
+        "account": "45301"
       }
     },
     {
@@ -424,7 +424,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "53",
         "agency": "1723",
-        "account": "42727-5"
+        "account": "42727"
       }
     },
     {
@@ -436,7 +436,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "35",
         "agency": "1010",
-        "account": "29753-3"
+        "account": "29753"
       }
     },
     {
@@ -448,7 +448,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "73",
         "agency": "1345",
-        "account": "20024-8"
+        "account": "20024"
       }
     },
     {
@@ -460,7 +460,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "53",
         "agency": "1778",
-        "account": "25031-9"
+        "account": "25031"
       }
     },
     {
@@ -472,7 +472,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "4",
         "agency": "1800",
-        "account": "47440-1"
+        "account": "47440"
       }
     },
     {
@@ -484,7 +484,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "70",
         "agency": "1089",
-        "account": "26335-8"
+        "account": "26335"
       }
     },
     {
@@ -496,7 +496,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "19",
         "agency": "1866",
-        "account": "19746-4"
+        "account": "19746"
       }
     },
     {
@@ -508,7 +508,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "96",
         "agency": "1398",
-        "account": "36066-1"
+        "account": "36066"
       }
     },
     {
@@ -520,7 +520,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "93",
         "agency": "1187",
-        "account": "26947-5"
+        "account": "26947"
       }
     },
     {
@@ -532,7 +532,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "77",
         "agency": "1074",
-        "account": "23504-9"
+        "account": "23504"
       }
     },
     {
@@ -544,7 +544,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "22",
         "agency": "1271",
-        "account": "34324-1"
+        "account": "34324"
       }
     },
     {
@@ -556,7 +556,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "34",
         "agency": "1511",
-        "account": "37853-8"
+        "account": "37853"
       }
     },
     {
@@ -568,7 +568,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "26",
         "agency": "1097",
-        "account": "47133-9"
+        "account": "47133"
       }
     },
     {
@@ -580,7 +580,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "32",
         "agency": "1502",
-        "account": "20783-4"
+        "account": "20783"
       }
     },
     {
@@ -592,7 +592,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "50",
         "agency": "1597",
-        "account": "24840-6"
+        "account": "24840"
       }
     },
     {
@@ -604,7 +604,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "5",
         "agency": "1853",
-        "account": "16185-8"
+        "account": "16185"
       }
     },
     {
@@ -616,7 +616,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "72",
         "agency": "1422",
-        "account": "21637-1"
+        "account": "21637"
       }
     },
     {
@@ -628,7 +628,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "18",
         "agency": "1743",
-        "account": "14131-1"
+        "account": "14131"
       }
     },
     {
@@ -640,7 +640,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "4",
         "agency": "1228",
-        "account": "44492-6"
+        "account": "44492"
       }
     },
     {
@@ -652,7 +652,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "7",
         "agency": "1361",
-        "account": "46938-5"
+        "account": "46938"
       }
     },
     {
@@ -664,7 +664,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "49",
         "agency": "1315",
-        "account": "22395-3"
+        "account": "22395"
       }
     },
     {
@@ -676,7 +676,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "86",
         "agency": "1885",
-        "account": "41098-2"
+        "account": "41098"
       }
     },
     {
@@ -688,7 +688,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "68",
         "agency": "1770",
-        "account": "10918-3"
+        "account": "10918"
       }
     },
     {
@@ -700,7 +700,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "39",
         "agency": "1850",
-        "account": "33844-2"
+        "account": "33844"
       }
     },
     {
@@ -712,7 +712,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "58",
         "agency": "1395",
-        "account": "12044-9"
+        "account": "12044"
       }
     },
     {
@@ -724,7 +724,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "78",
         "agency": "1730",
-        "account": "12377-3"
+        "account": "12377"
       }
     },
     {
@@ -736,7 +736,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "98",
         "agency": "1942",
-        "account": "35571-0"
+        "account": "35571"
       }
     },
     {
@@ -748,7 +748,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "52",
         "agency": "1111",
-        "account": "29465-5"
+        "account": "29465"
       }
     },
     {
@@ -760,7 +760,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "64",
         "agency": "1897",
-        "account": "33084-2"
+        "account": "33084"
       }
     },
     {
@@ -772,7 +772,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "54",
         "agency": "1298",
-        "account": "45223-3"
+        "account": "45223"
       }
     },
     {
@@ -784,7 +784,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "33",
         "agency": "1398",
-        "account": "38302-3"
+        "account": "38302"
       }
     },
     {
@@ -796,7 +796,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "83",
         "agency": "1998",
-        "account": "34269-9"
+        "account": "34269"
       }
     },
     {
@@ -808,7 +808,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "9",
         "agency": "1376",
-        "account": "35591-3"
+        "account": "35591"
       }
     },
     {
@@ -820,7 +820,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "37",
         "agency": "1075",
-        "account": "43923-0"
+        "account": "43923"
       }
     },
     {
@@ -832,7 +832,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "34",
         "agency": "1810",
-        "account": "10128-7"
+        "account": "10128"
       }
     },
     {
@@ -844,7 +844,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "16",
         "agency": "1741",
-        "account": "47785-6"
+        "account": "47785"
       }
     },
     {
@@ -856,7 +856,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "99",
         "agency": "1745",
-        "account": "48169-0"
+        "account": "48169"
       }
     },
     {
@@ -868,7 +868,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "42",
         "agency": "1945",
-        "account": "18157-7"
+        "account": "18157"
       }
     },
     {
@@ -880,7 +880,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "98",
         "agency": "1376",
-        "account": "18991-2"
+        "account": "18991"
       }
     },
     {
@@ -892,7 +892,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "29",
         "agency": "1641",
-        "account": "43137-9"
+        "account": "43137"
       }
     },
     {
@@ -904,7 +904,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "78",
         "agency": "1198",
-        "account": "33887-9"
+        "account": "33887"
       }
     },
     {
@@ -916,7 +916,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "79",
         "agency": "1178",
-        "account": "21573-3"
+        "account": "21573"
       }
     },
     {
@@ -928,7 +928,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "77",
         "agency": "1613",
-        "account": "48972-2"
+        "account": "48972"
       }
     },
     {
@@ -940,7 +940,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "57",
         "agency": "1278",
-        "account": "25883-4"
+        "account": "25883"
       }
     },
     {
@@ -952,7 +952,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "70",
         "agency": "1019",
-        "account": "20742-7"
+        "account": "20742"
       }
     },
     {
@@ -964,7 +964,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "24",
         "agency": "1891",
-        "account": "21762-0"
+        "account": "21762"
       }
     },
     {
@@ -976,7 +976,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "50",
         "agency": "1086",
-        "account": "11827-0"
+        "account": "11827"
       }
     },
     {
@@ -988,7 +988,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "1",
         "agency": "1310",
-        "account": "19936-4"
+        "account": "19936"
       }
     },
     {
@@ -1000,7 +1000,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "56",
         "agency": "1710",
-        "account": "25789-5"
+        "account": "25789"
       }
     },
     {
@@ -1012,7 +1012,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "63",
         "agency": "1800",
-        "account": "14424-9"
+        "account": "14424"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "94",
         "agency": "1028",
-        "account": "23079-8"
+        "account": "23079"
       }
     },
     {
@@ -1036,7 +1036,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "30",
         "agency": "1556",
-        "account": "45083-9"
+        "account": "45083"
       }
     },
     {
@@ -1048,7 +1048,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "7",
         "agency": "1436",
-        "account": "19689-0"
+        "account": "19689"
       }
     },
     {
@@ -1060,7 +1060,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "37",
         "agency": "1480",
-        "account": "18360-2"
+        "account": "18360"
       }
     },
     {
@@ -1072,7 +1072,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "36",
         "agency": "1686",
-        "account": "16429-8"
+        "account": "16429"
       }
     },
     {
@@ -1084,7 +1084,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "57",
         "agency": "1400",
-        "account": "13625-6"
+        "account": "13625"
       }
     },
     {
@@ -1096,7 +1096,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "31",
         "agency": "1401",
-        "account": "18946-2"
+        "account": "18946"
       }
     },
     {
@@ -1108,7 +1108,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "60",
         "agency": "1657",
-        "account": "31259-4"
+        "account": "31259"
       }
     },
     {
@@ -1120,7 +1120,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "64",
         "agency": "1668",
-        "account": "33407-1"
+        "account": "33407"
       }
     },
     {
@@ -1132,7 +1132,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "56",
         "agency": "1642",
-        "account": "14164-2"
+        "account": "14164"
       }
     },
     {
@@ -1144,7 +1144,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "60",
         "agency": "1679",
-        "account": "32992-5"
+        "account": "32992"
       }
     },
     {
@@ -1156,7 +1156,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "80",
         "agency": "1696",
-        "account": "12081-1"
+        "account": "12081"
       }
     },
     {
@@ -1168,7 +1168,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "54",
         "agency": "1214",
-        "account": "47832-8"
+        "account": "47832"
       }
     },
     {
@@ -1180,7 +1180,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "78",
         "agency": "1337",
-        "account": "33331-7"
+        "account": "33331"
       }
     },
     {
@@ -1192,7 +1192,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "69",
         "agency": "1450",
-        "account": "38641-1"
+        "account": "38641"
       }
     },
     {
@@ -1204,7 +1204,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "34",
         "agency": "1639",
-        "account": "39742-3"
+        "account": "39742"
       }
     },
     {
@@ -1216,7 +1216,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "38",
         "agency": "1907",
-        "account": "37108-9"
+        "account": "37108"
       }
     },
     {
@@ -1228,7 +1228,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "51",
         "agency": "1568",
-        "account": "11787-8"
+        "account": "11787"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "18",
         "agency": "1821",
-        "account": "16973-0"
+        "account": "16973"
       }
     },
     {
@@ -1252,7 +1252,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "26",
         "agency": "1671",
-        "account": "30311-5"
+        "account": "30311"
       }
     },
     {
@@ -1264,7 +1264,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "40",
         "agency": "1605",
-        "account": "34021-6"
+        "account": "34021"
       }
     },
     {
@@ -1276,7 +1276,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "55",
         "agency": "1920",
-        "account": "15878-1"
+        "account": "15878"
       }
     },
     {
@@ -1288,7 +1288,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "89",
         "agency": "1133",
-        "account": "18109-3"
+        "account": "18109"
       }
     },
     {
@@ -1300,7 +1300,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "50",
         "agency": "1837",
-        "account": "12405-8"
+        "account": "12405"
       }
     },
     {
@@ -1312,7 +1312,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "15",
         "agency": "1975",
-        "account": "40862-8"
+        "account": "40862"
       }
     },
     {
@@ -1324,7 +1324,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "35",
         "agency": "1634",
-        "account": "10460-0"
+        "account": "10460"
       }
     },
     {
@@ -1336,7 +1336,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "65",
         "agency": "1756",
-        "account": "12161-2"
+        "account": "12161"
       }
     },
     {
@@ -1348,7 +1348,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "25",
         "agency": "1147",
-        "account": "11565-9"
+        "account": "11565"
       }
     },
     {
@@ -1360,7 +1360,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "27",
         "agency": "1227",
-        "account": "40318-2"
+        "account": "40318"
       }
     },
     {
@@ -1372,7 +1372,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "45",
         "agency": "1788",
-        "account": "15598-3"
+        "account": "15598"
       }
     },
     {
@@ -1384,7 +1384,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "7",
         "agency": "1731",
-        "account": "33285-0"
+        "account": "33285"
       }
     },
     {
@@ -1396,7 +1396,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "97",
         "agency": "1789",
-        "account": "21876-0"
+        "account": "21876"
       }
     },
     {
@@ -1408,7 +1408,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "8",
         "agency": "1223",
-        "account": "42927-1"
+        "account": "42927"
       }
     },
     {
@@ -1420,7 +1420,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "3",
         "agency": "1375",
-        "account": "38331-9"
+        "account": "38331"
       }
     },
     {
@@ -1432,7 +1432,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "66",
         "agency": "1008",
-        "account": "20625-3"
+        "account": "20625"
       }
     },
     {
@@ -1444,7 +1444,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "65",
         "agency": "1381",
-        "account": "49204-1"
+        "account": "49204"
       }
     },
     {
@@ -1456,7 +1456,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "24",
         "agency": "1886",
-        "account": "28855-2"
+        "account": "28855"
       }
     },
     {
@@ -1468,7 +1468,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "97",
         "agency": "1666",
-        "account": "45466-0"
+        "account": "45466"
       }
     },
     {
@@ -1480,7 +1480,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "19",
         "agency": "1298",
-        "account": "10425-9"
+        "account": "10425"
       }
     },
     {
@@ -1492,7 +1492,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "38",
         "agency": "1739",
-        "account": "25387-4"
+        "account": "25387"
       }
     },
     {
@@ -1504,7 +1504,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "68",
         "agency": "1855",
-        "account": "20028-3"
+        "account": "20028"
       }
     },
     {
@@ -1516,7 +1516,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "30",
         "agency": "1114",
-        "account": "37995-1"
+        "account": "37995"
       }
     },
     {
@@ -1528,7 +1528,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "40",
         "agency": "1704",
-        "account": "29287-3"
+        "account": "29287"
       }
     },
     {
@@ -1540,7 +1540,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "7",
         "agency": "1680",
-        "account": "18202-8"
+        "account": "18202"
       }
     },
     {
@@ -1552,7 +1552,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "94",
         "agency": "1207",
-        "account": "24976-7"
+        "account": "24976"
       }
     },
     {
@@ -1564,7 +1564,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "18",
         "agency": "1116",
-        "account": "43167-4"
+        "account": "43167"
       }
     },
     {
@@ -1576,7 +1576,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "23",
         "agency": "1968",
-        "account": "12908-7"
+        "account": "12908"
       }
     },
     {
@@ -1588,7 +1588,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "75",
         "agency": "1989",
-        "account": "30633-0"
+        "account": "30633"
       }
     },
     {
@@ -1600,7 +1600,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "61",
         "agency": "1585",
-        "account": "14798-1"
+        "account": "14798"
       }
     },
     {
@@ -1612,7 +1612,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "99",
         "agency": "1810",
-        "account": "31899-9"
+        "account": "31899"
       }
     },
     {
@@ -1624,7 +1624,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "67",
         "agency": "1614",
-        "account": "30381-6"
+        "account": "30381"
       }
     },
     {
@@ -1636,7 +1636,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "19",
         "agency": "1158",
-        "account": "22135-8"
+        "account": "22135"
       }
     },
     {
@@ -1648,7 +1648,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "85",
         "agency": "1694",
-        "account": "28765-1"
+        "account": "28765"
       }
     },
     {
@@ -1660,7 +1660,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "85",
         "agency": "1992",
-        "account": "46765-1"
+        "account": "46765"
       }
     },
     {
@@ -1672,7 +1672,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "27",
         "agency": "1869",
-        "account": "13181-1"
+        "account": "13181"
       }
     },
     {
@@ -1684,7 +1684,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "46",
         "agency": "1320",
-        "account": "35093-6"
+        "account": "35093"
       }
     },
     {
@@ -1696,7 +1696,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "69",
         "agency": "1098",
-        "account": "47488-3"
+        "account": "47488"
       }
     },
     {
@@ -1708,7 +1708,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "62",
         "agency": "1241",
-        "account": "19528-7"
+        "account": "19528"
       }
     },
     {
@@ -1720,7 +1720,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "45",
         "agency": "1088",
-        "account": "19432-7"
+        "account": "19432"
       }
     },
     {
@@ -1732,7 +1732,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "51",
         "agency": "1073",
-        "account": "29706-6"
+        "account": "29706"
       }
     },
     {
@@ -1744,7 +1744,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "5",
         "agency": "1656",
-        "account": "34869-9"
+        "account": "34869"
       }
     },
     {
@@ -1756,7 +1756,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "92",
         "agency": "1704",
-        "account": "41944-5"
+        "account": "41944"
       }
     },
     {
@@ -1768,7 +1768,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "99",
         "agency": "1192",
-        "account": "28813-4"
+        "account": "28813"
       }
     },
     {
@@ -1780,7 +1780,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "85",
         "agency": "1187",
-        "account": "40054-1"
+        "account": "40054"
       }
     },
     {
@@ -1792,7 +1792,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "50",
         "agency": "1611",
-        "account": "13781-7"
+        "account": "13781"
       }
     },
     {
@@ -1804,7 +1804,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "93",
         "agency": "1470",
-        "account": "13220-8"
+        "account": "13220"
       }
     },
     {
@@ -1816,7 +1816,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "94",
         "agency": "1340",
-        "account": "10353-9"
+        "account": "10353"
       }
     },
     {
@@ -1828,7 +1828,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "77",
         "agency": "1842",
-        "account": "37796-9"
+        "account": "37796"
       }
     },
     {
@@ -1840,7 +1840,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "35",
         "agency": "1276",
-        "account": "16627-9"
+        "account": "16627"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "47",
         "agency": "1300",
-        "account": "48568-4"
+        "account": "48568"
       }
     },
     {
@@ -1864,7 +1864,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "2",
         "agency": "1592",
-        "account": "24427-3"
+        "account": "24427"
       }
     },
     {
@@ -1876,7 +1876,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "3",
         "agency": "1730",
-        "account": "39617-4"
+        "account": "39617"
       }
     },
     {
@@ -1888,7 +1888,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "46",
         "agency": "1943",
-        "account": "28821-1"
+        "account": "28821"
       }
     },
     {
@@ -1900,7 +1900,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "86",
         "agency": "1920",
-        "account": "33895-7"
+        "account": "33895"
       }
     },
     {
@@ -1912,7 +1912,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "60",
         "agency": "1121",
-        "account": "14569-9"
+        "account": "14569"
       }
     },
     {
@@ -1924,7 +1924,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "95",
         "agency": "1011",
-        "account": "12320-3"
+        "account": "12320"
       }
     },
     {
@@ -1936,7 +1936,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "82",
         "agency": "1872",
-        "account": "22790-2"
+        "account": "22790"
       }
     },
     {
@@ -1948,7 +1948,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "19",
         "agency": "1012",
-        "account": "12049-0"
+        "account": "12049"
       }
     },
     {
@@ -1960,7 +1960,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "92",
         "agency": "1831",
-        "account": "23804-0"
+        "account": "23804"
       }
     },
     {
@@ -1972,7 +1972,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "52",
         "agency": "1792",
-        "account": "37918-9"
+        "account": "37918"
       }
     },
     {
@@ -1984,7 +1984,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "52",
         "agency": "1205",
-        "account": "20700-5"
+        "account": "20700"
       }
     },
     {
@@ -1996,7 +1996,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "18",
         "agency": "1449",
-        "account": "44280-9"
+        "account": "44280"
       }
     },
     {
@@ -2008,7 +2008,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "2",
         "agency": "1416",
-        "account": "23974-9"
+        "account": "23974"
       }
     },
     {
@@ -2020,7 +2020,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "59",
         "agency": "1490",
-        "account": "36892-6"
+        "account": "36892"
       }
     },
     {
@@ -2032,7 +2032,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "85",
         "agency": "1469",
-        "account": "31502-5"
+        "account": "31502"
       }
     },
     {
@@ -2044,7 +2044,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "26",
         "agency": "1565",
-        "account": "14583-2"
+        "account": "14583"
       }
     },
     {
@@ -2056,7 +2056,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "59",
         "agency": "1683",
-        "account": "29463-8"
+        "account": "29463"
       }
     },
     {
@@ -2068,7 +2068,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "26",
         "agency": "1056",
-        "account": "15057-3"
+        "account": "15057"
       }
     },
     {
@@ -2080,7 +2080,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "74",
         "agency": "1555",
-        "account": "26759-9"
+        "account": "26759"
       }
     },
     {
@@ -2092,7 +2092,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "14",
         "agency": "1017",
-        "account": "46651-7"
+        "account": "46651"
       }
     },
     {
@@ -2104,7 +2104,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "48",
         "agency": "1174",
-        "account": "21717-3"
+        "account": "21717"
       }
     },
     {
@@ -2116,7 +2116,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "15",
         "agency": "1973",
-        "account": "39948-2"
+        "account": "39948"
       }
     },
     {
@@ -2128,7 +2128,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "61",
         "agency": "1999",
-        "account": "36658-0"
+        "account": "36658"
       }
     },
     {
@@ -2140,7 +2140,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "54",
         "agency": "1937",
-        "account": "38427-0"
+        "account": "38427"
       }
     },
     {
@@ -2152,7 +2152,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "58",
         "agency": "1765",
-        "account": "33820-5"
+        "account": "33820"
       }
     },
     {
@@ -2164,7 +2164,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "24",
         "agency": "1835",
-        "account": "46438-7"
+        "account": "46438"
       }
     },
     {
@@ -2176,7 +2176,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "40",
         "agency": "1149",
-        "account": "31968-6"
+        "account": "31968"
       }
     },
     {
@@ -2188,7 +2188,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "33",
         "agency": "1973",
-        "account": "18903-3"
+        "account": "18903"
       }
     },
     {
@@ -2200,7 +2200,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "53",
         "agency": "1302",
-        "account": "45749-7"
+        "account": "45749"
       }
     },
     {
@@ -2212,7 +2212,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "47",
         "agency": "1508",
-        "account": "14573-5"
+        "account": "14573"
       }
     },
     {
@@ -2224,7 +2224,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "58",
         "agency": "1727",
-        "account": "48278-7"
+        "account": "48278"
       }
     },
     {
@@ -2236,7 +2236,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "77",
         "agency": "1101",
-        "account": "31222-9"
+        "account": "31222"
       }
     },
     {
@@ -2248,7 +2248,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "4",
         "agency": "1145",
-        "account": "39629-6"
+        "account": "39629"
       }
     },
     {
@@ -2260,7 +2260,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "63",
         "agency": "1451",
-        "account": "11407-3"
+        "account": "11407"
       }
     },
     {
@@ -2272,7 +2272,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "55",
         "agency": "1496",
-        "account": "22424-8"
+        "account": "22424"
       }
     },
     {
@@ -2284,7 +2284,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "2",
         "agency": "1777",
-        "account": "41944-3"
+        "account": "41944"
       }
     },
     {
@@ -2296,7 +2296,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "60",
         "agency": "1312",
-        "account": "20820-5"
+        "account": "20820"
       }
     },
     {
@@ -2308,7 +2308,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "19",
         "agency": "1491",
-        "account": "25977-9"
+        "account": "25977"
       }
     },
     {
@@ -2320,7 +2320,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "11",
         "agency": "1186",
-        "account": "33997-7"
+        "account": "33997"
       }
     },
     {
@@ -2332,7 +2332,7 @@
         "bankName": "Banco do Brasil S.A",
         "code": "61",
         "agency": "1808",
-        "account": "32402-7"
+        "account": "32402"
       }
     },
     {
@@ -2344,7 +2344,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "24",
         "agency": "1943",
-        "account": "33144-8"
+        "account": "33144"
       }
     },
     {
@@ -2356,7 +2356,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "42",
         "agency": "1382",
-        "account": "35496-4"
+        "account": "35496"
       }
     },
     {
@@ -2368,7 +2368,7 @@
         "bankName": "Banco Bradesco S.A",
         "code": "35",
         "agency": "1335",
-        "account": "24930-5"
+        "account": "24930"
       }
     },
     {
@@ -2380,7 +2380,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "26",
         "agency": "1388",
-        "account": "14959-8"
+        "account": "14959"
       }
     },
     {
@@ -2392,7 +2392,7 @@
         "bankName": "Banco Santander Brasil S.A",
         "code": "99",
         "agency": "1352",
-        "account": "44451-9"
+        "account": "44451"
       }
     },
     {
@@ -2404,7 +2404,7 @@
         "bankName": "Nu Pagamentos S.A",
         "code": "54",
         "agency": "1559",
-        "account": "20080-2"
+        "account": "20080"
       }
     }
   ]

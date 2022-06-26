@@ -15,7 +15,10 @@ interface ICustomerResponse {
   lastPage: number;
 }
 
-export default function useCustomers(currentPage: number): ICustomerResponse {
+export default function useCustomers(
+  currentPage: number,
+  forceUpdate: number,
+): ICustomerResponse {
   const [customers, setCustomers] = useState<ICustomer[]>([]);
   const [lastPage, setLastPage] = useState(1);
 
@@ -52,7 +55,7 @@ export default function useCustomers(currentPage: number): ICustomerResponse {
           );
         }
       });
-  }, [currentPage]);
+  }, [currentPage, forceUpdate]);
 
   return {
     customers: customers,

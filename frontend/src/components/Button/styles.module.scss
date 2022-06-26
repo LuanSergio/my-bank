@@ -2,8 +2,6 @@
 @use 'tools/get-color' as *;
 
 .button {
-  color: get-color(primary);
-  background-color: get-color(light);
   width: 100%;
   padding: rem(16);
   font-size: rem(24);
@@ -18,4 +16,14 @@
   color: get-color(light);
   background-color: get-color(primary);
   box-shadow: 0px 0px 12px 4px rgba($color: get-color(primary), $alpha: 0.6);
+}
+
+.primary {
+  color: get-color(light);
+  background-color: get-color(primary);
+}
+
+.light {
+  color: get-color(primary);
+  background-color: get-color(light);
 }

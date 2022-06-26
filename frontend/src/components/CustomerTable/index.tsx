@@ -61,6 +61,7 @@ const CustomerTable = (): JSX.Element => {
             disabled={currentPage <= 1}
             className={styles.paginationPrevious}
             onClick={handlePreviousClick}
+            aria-label="Ir para página anterior"
           >
             <Arrow />
           </button>
@@ -68,6 +69,7 @@ const CustomerTable = (): JSX.Element => {
             disabled={currentPage >= lastPage}
             className={styles.paginationNext}
             onClick={handleNextClick}
+            aria-label="Ir para página seguinte"
           >
             <Arrow />
           </button>

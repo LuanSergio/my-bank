@@ -1,0 +1,44 @@
+@use 'tools/rem' as *;
+@use 'tools/get-color' as *;
+@use 'settings/_breakpoints' as *;
+@use 'tools/index' as *;
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: rem(8);
+}
+
+.paginationIndex {
+  margin-right: rem(20);
+}
+
+.paginationPrevious,
+.paginationNext {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.paginationPrevious:disabled,
+.paginationNext:disabled {
+  opacity: 0.3;
+}
+
+.paginationPrevious:hover,
+.paginationNext:hover {
+  background-color: #eee;
+}
+
+.paginationPrevious {
+  margin-right: rem(4);
+  transform: rotate(-180deg);
+}
+
+.paginationNext {
+  margin-right: rem(20);
+}

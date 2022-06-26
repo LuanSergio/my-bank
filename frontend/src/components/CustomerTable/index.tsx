@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import CustomerTableItem from '@components/CustomerTableItem';
+import TablePagination from '@components/TablePagination';
 import DotDecoration from '../../../public/dot-decoration.svg';
 import Arrow from '../../../public/arrow.svg';
 import useCustomers from './useCustomers';
@@ -14,6 +15,7 @@ const CustomerTable = (): JSX.Element => {
   const { customers, lastPage } = useCustomers(currentPage, forceUpdate);
 
   function handlePreviousClick() {
+    console.log('previous');
     if (currentPage > 1) {
       setCurrentPage(previousValue => previousValue - 1);
     }
@@ -21,6 +23,7 @@ const CustomerTable = (): JSX.Element => {
 
   function handleNextClick() {
     if (currentPage < lastPage) {
+      console.log('next');
       setCurrentPage(previousValue => previousValue + 1);
     }
   }
@@ -53,27 +56,12 @@ const CustomerTable = (): JSX.Element => {
             </tbody>
           </table>
         </div>
-        <div className={styles.tableFooter}>
-          <p className={styles.paginationIndex}>
-            {currentPage} - {lastPage}
-          </p>
-          <button
-            disabled={currentPage <= 1}
-            className={styles.paginationPrevious}
-            onClick={handlePreviousClick}
-            aria-label="Ir para página anterior"
-          >
-            <Arrow />
-          </button>
-          <button
-            disabled={currentPage >= lastPage}
-            className={styles.paginationNext}
-            onClick={handleNextClick}
-            aria-label="Ir para página seguinte"
-          >
-            <Arrow />
-          </button>
-        </div>
+        <TablePagination
+          currentPage={currentPage}
+          handleNext={handleNextClick}
+          handlePrevious={handlePreviousClick}
+          lastPage={lastPage}
+        />
         <DotDecoration className={styles.decoration} aria-hidden="true" />
       </div>
     </>

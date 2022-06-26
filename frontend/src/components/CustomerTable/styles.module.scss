@@ -10,8 +10,8 @@
 
 .content {
   margin-top: rem(40);
-  margin-bottom: 40px;
-  max-width: 1000px;
+  margin-bottom: rem(40);
+  max-width: rem(1000);
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -30,7 +30,7 @@
   position: relative;
   z-index: 10;
   width: 100%;
-  min-width: 920px;
+  min-width: rem(920);
 }
 
 .tableHead {
@@ -83,20 +83,20 @@
 
 .decoration {
   display: none;
-  width: 195px;
-  height: 198px;
+  width: rem(195);
+  height: rem(198);
   position: absolute;
 }
 
 .decoration:nth-child(1) {
-  top: -88px;
-  right: -98px;
+  top: rem(-88);
+  right: rem(-98);
   z-index: -1;
 }
 
 .decoration:last-child {
-  bottom: -88px;
-  left: -98px;
+  bottom: rem(-88);
+  left: rem(-98);
   z-index: -1;
 }
 

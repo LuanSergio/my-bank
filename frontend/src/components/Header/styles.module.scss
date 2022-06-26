@@ -13,8 +13,8 @@
 }
 
 .logo {
-  width: 124px;
-  height: 54px;
+  width: rem(124);
+  height: rem(54);
 }
 
 .menu {
@@ -56,8 +56,8 @@
 
 @media only screen and (min-width: $sm) {
   .logo {
-    width: 159px;
-    height: 54px;
+    width: rem(159);
+    height: rem(54);
   }
 
   .login {

@@ -12,27 +12,33 @@
 }
 
 .cell:nth-child(1) {
-  width: rem(220);
+  width: 180px;
 }
 
 .cell:nth-child(2) {
-  width: rem(150);
+  width: 120px;
 }
 
 .cell:nth-child(3) {
-  width: rem(181);
+  width: 132px;
 }
 
 .cell:nth-child(4) {
-  width: rem(120);
+  width: 200px;
 }
 
 .cell:nth-child(5) {
-  width: rem(118);
+  width: 98px;
 }
 
 .cell:nth-child(6) {
-  width: rem(59);
+  width: 120px;
+}
+
+.cell:nth-child(7) {
+  width: 40px;
+
+  justify-content: center;
 }
 
 .editButton {

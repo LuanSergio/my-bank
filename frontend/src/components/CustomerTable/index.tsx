@@ -9,7 +9,9 @@ import styles from './styles.module.scss';
 
 const CustomerTable = (): JSX.Element => {
   const [currentPage, setCurrentPage] = useState(1);
-  const { customers, lastPage } = useCustomers(currentPage);
+  const [forceUpdate, setForceUpdate] = useState(0);
+
+  const { customers, lastPage } = useCustomers(currentPage, forceUpdate);
 
   function handlePreviousClick() {
     if (currentPage > 1) {
@@ -35,13 +37,18 @@ const CustomerTable = (): JSX.Element => {
                 <th className={styles.tableHead}>Nome</th>
                 <th className={styles.tableHead}>Data</th>
                 <th className={styles.tableHead}>Documento</th>
+                <th className={styles.tableHead}>Banco</th>
                 <th className={styles.tableHead}>Agência</th>
                 <th className={styles.tableHead}>Conta</th>
                 <th className={styles.tableHead}>Editar</th>
               </tr>
 
               {customers.map(customer => (
-                <CustomerTableItem key={customer.id} customer={customer} />
+                <CustomerTableItem
+                  key={customer.id}
+                  forceUpdate={setForceUpdate}
+                  customer={customer}
+                />
               ))}
             </tbody>
           </table>

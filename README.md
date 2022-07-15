@@ -116,7 +116,7 @@ $ npm run dev
 # Navigate to the frontend folder
 $ cd my-bank/frontend
 
-# Copy the content from the .env.example to a new file name .env
+# Copy the content from the .env.example to a new file named .env
 
 # Install the frontend dependencies
 $ npm install
